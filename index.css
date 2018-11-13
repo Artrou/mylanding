@@ -1,0 +1,134 @@
+body{
+
+color: rgb(50,50,50);
+font-family: arial;
+background-color: rgb(50,50,50);
+
+}
+
+h1{
+margin-right: 330px;
+margin-left:  330px;
+margin-bottom: 30px;
+height: 60px;
+color: white;
+background-color: rgb(50,50,50);
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+
+
+}
+
+header{ 
+
+background-color: white;
+margin-right: 470px;
+margin-left: 470px;
+float: center;
+box-shadow: 8px 8px 5px #111;
+ background-image: linear-gradient(180deg, #fff, #ddd 40%, #aaa);
+   font-size:20px;
+  display: block;
+  padding: 0 30px;
+  line-height: 36px;
+  color: #321;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+ }
+
+ header:hover{ 
+  background: #4d5354;
+  background: #0174DF;
+  
+  }
+
+  header a {
+  font-size: 20px;
+  display: block;
+
+  line-height: 36px;
+  color: #321;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h3{
+  color: white;
+
+
+}
+
+div{
+background-color: white;
+margin-right: 190px;
+margin-left: 190px;
+float: center;
+box-shadow: 8px 8px 5px #111;
+ background-image: linear-gradient(180deg, #fff, #ddd 40%, #aaa);
+ border-radius: 20px;
+
+
+}
+
+h2 {
+color: #321;
+
+
+
+}
+
+nav {
+  height: 60px;
+  background: #0174DF;
+
+  margin-left: 0%:
+  margin-right: 0%;
+  border-radius: 10px;
+
+}
+
+nav ul {
+  float: left;
+  list-style-type: none;
+
+}
+nav li {/*mettre les li a la suite*/
+  float: left;
+      border-right: 0px solid #bbb;
+ li:last-child {
+    border-right: none;
+}
+}
+nav a {
+  font-size:20px;
+  display: block;
+  padding: 0 30px;
+  line-height: 36px;
+  color: #321;
+  text-decoration: none;
+  cursor: pointer;
+}
+nav a:hover {/*rend la case sombre lorsque l'on passe le curseur*/
+  background: #4d5354;
+  background: white;
+  border-radius: 10px;
+  
+ 
+
+}
+.img-circle { /* select all elements with the class="img-circle" */
+  border-radius: 50%;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+}
+.img-circle {
+  border-radius: 50%;
+}
+.img-bordered {
+  border: 20px solid #0174DF;
+}
+
+
+
+
